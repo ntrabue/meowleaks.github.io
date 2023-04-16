@@ -1,22 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>About Meowleaks</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
+	<title>Meowleaks.org</title>
+	<style>
+		body {
+			background-color: #F8F8F8;
+			font-family: Arial, sans-serif;
+			font-size: 14px;
+			color: #333;
+			margin: 0;
+			padding: 0;
+		}
+		header {
+			background-color: #000;
+			color: #FFF;
+			padding: 10px;
+		}
+		h1 {
+			font-size: 36px;
+			margin: 0;
+			padding: 0;
+		}
+		nav {
+			background-color: #CCC;
+			padding: 10px;
+		}
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+		}
+		nav a:hover {
+			color: #000;
+			text-decoration: underline;
+		}
+		article {
+			margin: 20px;
+			padding: 20px;
+			background-color: #FFF;
+		}
+	</style>
 </head>
 <body>
 	<header>
-		<h1>About Meowleaks</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="leaks.html">Leaks</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+		<h1>Meowleaks.org</h1>
 	</header>
+	<nav>
+		<ul>
+			<li><a href="https://meowleaks.org/">Home</a></li>
+			<li><a href="https://meowleaks.org/about">About</a></li>
+			<li><a href="#">Leaked Documents</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
 
 	<main>
 		<h2>What is Meowleaks?</h2>
