@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Displaying User's Windows Username</title>
+	<script type="text/javascript">
+		function getUsername() {
+			var wshShell = new ActiveXObject("WScript.Shell");
+			var username = wshShell.ExpandEnvironmentStrings("%USERNAME%");
+			document.getElementById("username").innerHTML = "Your Windows username is: " + username;
+		}
+	</script>
+</head>
+<body onload="getUsername();">
+	<div id="username"></div>
+</body>
+</html>
